@@ -11,5 +11,7 @@ rm -rf mining-bx-coin
 git clone https://github.com/MuhammadRestu999/mining-bx-coin
 cd mining-bx-coin
 nano config.json
+clear
+echo "Sabar Mendownload NPM !!!"
 node .
 ```
