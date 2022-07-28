@@ -1,0 +1,22 @@
+{
+  "name": "mining-bx-coin",
+  "version": "1.0.0",
+  "description": "```bash apt update -y apt upgrade -y apt install git -y apt install nodejs-lts -y apt install nano -y git clone https://github.com/MuhammadRestu999/mining-bx-coin cd mining-bx-coin nano config.json node . ```",
+  "main": "mining.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhammadRestu999/mining-bx-coin.git"
+  },
+  "author": "Restu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuhammadRestu999/mining-bx-coin/issues"
+  },
+  "homepage": "https://github.com/MuhammadRestu999/mining-bx-coin#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
