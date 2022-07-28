@@ -14,12 +14,9 @@ console.log("\n");
 setInterval(async function() {
   axios.get("http://xiex.my.id/mining-coin/" + num).then(function({ data }) {
     if(data == "nomor tidak ada !!") {
-      console.log("Umm\nCoba cek nomor HP mu");
+      console.log("Umm\nCoba cek nomor HP mu\n\n");
       throw false;
     };
-    let obj = {};
-    let arr = data.split(" : ");
-    arr.forEach((v, i) => i % 2 == 1 ? undefined : obj[v] = arr[i + 1]);
-    console.log("Uang : " + obj.uangmu);
+    console.log(data);
   });
 }, ms);
