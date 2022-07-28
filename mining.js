@@ -1,7 +1,7 @@
 const axios = require("axios");
 const fs = require("fs");
 
-const { nomor: num, delay: ms } = JSON.parse(fs.readFileSync("config.json"))
+const { nomor: num, delay: ms } = require ("./config")
 
 if(num == "628XXXXXXXXXX") throw false
 
