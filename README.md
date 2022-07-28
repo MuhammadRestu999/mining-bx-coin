@@ -13,5 +13,7 @@ cd mining-bx-coin
 nano config.json
 clear
 echo "Sabar Mendownload NPM !!!"
+npm i;
+npm i axios;
 node .
 ```
